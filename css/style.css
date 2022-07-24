@@ -534,6 +534,9 @@ footer {
     .mobile_item_subtitle {
       font-size: 17px; }
 
+  .world {
+    min-height: 650px; }
+
   .footer_wrapper {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
@@ -639,7 +642,10 @@ footer {
   .advantages_header {
     text-align: center; }
   .advantages_text {
-    margin-top: 5px; } }
+    margin-top: 5px; }
+
+  .world {
+    min-height: 650px; } }
 @media (max-width: 575px) {
   nav {
     height: 30px; }
@@ -779,10 +785,8 @@ footer {
       line-height: 17px; }
 
   .world {
-    padding: 25px 0 30px 0;
-    width: 321px;
-    height: 360px;
-    min-height: 0; }
+    min-height: 360px;
+    padding: 25px 0 30px 0; }
     .world_link {
       margin-top: 196px; }
 
